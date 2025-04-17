@@ -1,0 +1,26 @@
+{
+  "name": "oil-backend",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000B\u0000a\u0000c\u0000k\u0000e\u0000n\u0000d\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "jw": "^0.0.0",
+    "lucide-react": "^0.487.0",
+    "mongodb": "^6.15.0",
+    "mongoose": "^8.13.2",
+    "razorpay": "^2.9.6"
+  },
+  "keywords": []
+}
