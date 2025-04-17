@@ -1941,7 +1941,9 @@ app.delete('/clear-wishlist/:userId', verifyToken, async (req, res) => {
 // -----------------------------------
 
 app.get("/", (req, res) => {
-  res.send("Hello World 🌍");
+ res.json({
+  status:true
+ })
 });
 
 mongoConnect(() => {
@@ -1949,3 +1951,5 @@ mongoConnect(() => {
     console.log(`🚀 Server started on http://localhost:${port}`);
   });
 });
+
+
