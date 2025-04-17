@@ -2,10 +2,11 @@ const mongoose = require("mongoose");
 
 let db;
 
+
 const mongoConnect = (callback) => {
   mongoose
     .connect(
-      "mmongodb+srv://oilrefinery:<QWKrpLiEuJZTj31q>@cluster0.rq2i7mn.mongodb.net/Refainery"
+      "mongodb+srv://oilrefinery:QWKrpLiEuJZTj31q@cluster0.rq2i7mn.mongodb.net/Refainery"
     )
     .then(() => {
       db = mongoose.connection;
